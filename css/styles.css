@@ -678,23 +678,21 @@ top: 72px;  */
 /* =====================FOOTER======================== */
 
 
-.footer {
-    background-color:#2E2F42;
-}
+    .footer {
+        background-color:#2E2F42;
+    }
+    
 
 
-.gen-footer {
+    .gen-footer {
     display: flex;
-    background-color:#2E2F42;
-    width: 1158px;
-    margin: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-
-    /* height: 310px; */
+  
+    /* height: 310px;  */
+     
     padding-top: 100px;
     padding-bottom: 100px;
 }
+
 
 .footer-info {
     box-sizing: content-box;
