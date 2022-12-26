@@ -76,13 +76,7 @@ img {
 
 /* ======================== HEADER================== */
 
-.container-portfolio-header {
-    max-width: 1600px;
-    /* width: 1158px; */
-    margin: 0 auto;
-    padding-left: 235px;
-    padding-right: 235px;
-}
+
 
 .header-page {
     display: flex;
