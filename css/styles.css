@@ -683,9 +683,20 @@ top: 72px;  */
 
 /* =====================FOOTER======================== */
 
+
+.footer {
+    background-color:#2E2F42;
+}
+
+
 .gen-footer {
     display: flex;
     background-color:#2E2F42;
+    width: 1158px;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
     /* height: 310px; */
     padding-top: 100px;
     padding-bottom: 100px;
@@ -695,7 +706,7 @@ top: 72px;  */
     box-sizing: content-box;
 
     width: 264px;
-    padding-left: 156px;
+    /* padding-left: 156px; */
 }
 
 
@@ -790,7 +801,7 @@ top: 72px;  */
 
 .footer-form-block {
     display: flex;
-    margin-left: 60px;
+    margin-left: auto;
 }
 
  .footer-form {
@@ -940,13 +951,15 @@ top: 72px;  */
     cursor: pointer;
 
     transition: border var(--transition-dur-and-func),
-                box-shadow var(--transition-dur-and-func);
+                box-shadow var(--transition-dur-and-func),
+                background-color var(--transition-dur-and-func);
 }
 
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
     border: transparent;
+    background-color: var(--button-hover-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
@@ -954,7 +967,13 @@ top: 72px;  */
 .modal-cls-button-icon {
     width: 8px;
     height: 8px;
+    transition: fill var(--transition-dur-and-func);
 }
+
+.modal-close-btn:hover,
+.modal-close-btn:focus + .modal-cls-button-icon {  
+    fill: var(--main-bg-color);
+  }
 
  /* ===========================MODAL FORM ================ */
 
