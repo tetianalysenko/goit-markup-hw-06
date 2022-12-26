@@ -76,7 +76,13 @@ img {
 
 /* ======================== HEADER================== */
 
-
+.container-portfolio-header {
+    max-width: 1600px;
+    /* width: 1158px; */
+    margin: 0 auto;
+    padding-left: 235px;
+    padding-right: 235px;
+}
 
 .header-page {
     display: flex;
@@ -822,6 +828,11 @@ top: 72px;  */
     font-size: 12px;
     line-height: 1.5;
 
+}
+
+.footer-form-subsc-input:hover,
+.footer-form-subsc-input:focus {
+    outline: none;
 }
 
 .footer-form-subcs-btn {
